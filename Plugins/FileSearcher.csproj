@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>FileSearcher</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="eVGOkW6i3V4hyTVgWh.Isxmu5pg28yfuAgCRR" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.ionic.zip.reduced.dll.compressed" />
+    <None Remove="costura.messagepacklib.dll.compressed" />
+    <None Remove="mL1WukYbGJXyl3MZAn.FAZJwTFNSVJB4cSK1C" />
+    <EmbeddedResource Include="eVGOkW6i3V4hyTVgWh.Isxmu5pg28yfuAgCRR" LogicalName="eVGOkW6i3V4hyTVgWh.Isxmu5pg28yfuAgCRR" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.ionic.zip.reduced.dll.compressed" LogicalName="costura.ionic.zip.reduced.dll.compressed" />
+    <EmbeddedResource Include="costura.messagepacklib.dll.compressed" LogicalName="costura.messagepacklib.dll.compressed" />
+    <EmbeddedResource Include="mL1WukYbGJXyl3MZAn.FAZJwTFNSVJB4cSK1C" LogicalName="mL1WukYbGJXyl3MZAn.FAZJwTFNSVJB4cSK1C" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MessagePackLib" />
+    <Reference Include="Ionic.Zip.Reduced" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>FileManager</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="xUkUsdXckFtOVusGsf.Sc8baRDZ46ASrV25Px" />
+    <None Remove="A8eINWkEUxMEHXJhTR.wrdKGs3vE5ot5uwslc" />
+    <EmbeddedResource Include="xUkUsdXckFtOVusGsf.Sc8baRDZ46ASrV25Px" LogicalName="xUkUsdXckFtOVusGsf.Sc8baRDZ46ASrV25Px" />
+    <EmbeddedResource Include="A8eINWkEUxMEHXJhTR.wrdKGs3vE5ot5uwslc" LogicalName="A8eINWkEUxMEHXJhTR.wrdKGs3vE5ot5uwslc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

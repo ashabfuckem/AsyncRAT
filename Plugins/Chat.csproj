@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Chat</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="wUni1wPWUacs7n9yUC.0B4CyMpEOsG1ZukJCk" />
+    <None Remove="gJB5MQeENBgTTGfEDZ.SGc8a1yRFyiSR1Q35E" />
+    <EmbeddedResource Include="wUni1wPWUacs7n9yUC.0B4CyMpEOsG1ZukJCk" LogicalName="wUni1wPWUacs7n9yUC.0B4CyMpEOsG1ZukJCk" />
+    <EmbeddedResource Include="gJB5MQeENBgTTGfEDZ.SGc8a1yRFyiSR1Q35E" LogicalName="gJB5MQeENBgTTGfEDZ.SGc8a1yRFyiSR1Q35E" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

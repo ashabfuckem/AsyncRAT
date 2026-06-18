@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "jw7GVcedHZE=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\aleks\\Desktop\\asyncrat\\AsyncRAT.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.NETFramework.ReferenceAssemblies. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\aleks\\Desktop\\asyncrat\\AsyncRAT.csproj",
+      "filePath": "C:\\Users\\aleks\\Desktop\\asyncrat\\AsyncRAT.csproj",
+      "libraryId": "Microsoft.NETFramework.ReferenceAssemblies",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6",
+        ".NETFramework,Version=v4.6/win-x86"
+      ]
+    }
+  ]
+}

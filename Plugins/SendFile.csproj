@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SendFile</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="xHRFsBXLcl93PSnSk2.LtLnByDw1ksXkHQRPk" />
+    <None Remove="W80WaLjk4mVo5wnReP.xptjrE4VBIpuyXkStH" />
+    <EmbeddedResource Include="xHRFsBXLcl93PSnSk2.LtLnByDw1ksXkHQRPk" LogicalName="xHRFsBXLcl93PSnSk2.LtLnByDw1ksXkHQRPk" />
+    <EmbeddedResource Include="W80WaLjk4mVo5wnReP.xptjrE4VBIpuyXkStH" LogicalName="W80WaLjk4mVo5wnReP.xptjrE4VBIpuyXkStH" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

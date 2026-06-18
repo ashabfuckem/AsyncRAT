@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>RemoteDesktop</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="fRGAIodYr2VCvZqSoA.YLNUxAlB1ZZOFdHTOo" />
+    <None Remove="QrDoejQ7bh3IMd3eJV.CJWfj0FSrsZM0NrGWu" />
+    <EmbeddedResource Include="fRGAIodYr2VCvZqSoA.YLNUxAlB1ZZOFdHTOo" LogicalName="fRGAIodYr2VCvZqSoA.YLNUxAlB1ZZOFdHTOo" />
+    <EmbeddedResource Include="QrDoejQ7bh3IMd3eJV.CJWfj0FSrsZM0NrGWu" LogicalName="QrDoejQ7bh3IMd3eJV.CJWfj0FSrsZM0NrGWu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>LimeLogger</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="8fAjSwomug81v7RsqL.wCk4Ti4PqqbL5smBvA" />
+    <None Remove="1sIEUxNwmeSl6a6r42.SYKnTwQOJyufE5R7ee" />
+    <EmbeddedResource Include="8fAjSwomug81v7RsqL.wCk4Ti4PqqbL5smBvA" LogicalName="8fAjSwomug81v7RsqL.wCk4Ti4PqqbL5smBvA" />
+    <EmbeddedResource Include="1sIEUxNwmeSl6a6r42.SYKnTwQOJyufE5R7ee" LogicalName="1sIEUxNwmeSl6a6r42.SYKnTwQOJyufE5R7ee" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

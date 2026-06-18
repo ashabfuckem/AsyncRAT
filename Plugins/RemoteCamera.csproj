@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>RemoteCamera</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Z0Mwvqtlkh3fy4bdeN.co5mA49e8BQuBFUvi1" />
+    <None Remove="VMmqcZAKFrjhqeBELF.mxfUtfUs4PaVZWrTim" />
+    <EmbeddedResource Include="Z0Mwvqtlkh3fy4bdeN.co5mA49e8BQuBFUvi1" LogicalName="Z0Mwvqtlkh3fy4bdeN.co5mA49e8BQuBFUvi1" />
+    <EmbeddedResource Include="VMmqcZAKFrjhqeBELF.mxfUtfUs4PaVZWrTim" LogicalName="VMmqcZAKFrjhqeBELF.mxfUtfUs4PaVZWrTim" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
